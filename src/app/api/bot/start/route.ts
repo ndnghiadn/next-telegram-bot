@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { spawn, exec } from "child_process";
+import { spawn, execSync } from "child_process";
 import path from "path";
 import fs from "fs";
 
